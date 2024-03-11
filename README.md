@@ -6,7 +6,7 @@ A simple python script for screening methyl group for target ligand
 
 Use the package manager pip to install Biopython
 
-'pip install biopython'
+`pip install biopython`
 
 
 ## Usage
