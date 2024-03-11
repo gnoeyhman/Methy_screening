@@ -11,7 +11,7 @@ Use the package manager pip to install Biopython
 ## Usage
 Before you run the script, you need to prepare the apo structure of designed protein and selected conformation for target ligand
 
-put the pdbs in input directory
+revised the input directory and output directory in `bump_cal.py`
 
 ```
 indir = "~/DIRECTORY/input"
