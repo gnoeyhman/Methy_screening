@@ -14,16 +14,19 @@ Before you run the script, you need to prepare the apo structure of designed pro
 
 put the pdbs in input directory
 
-    indir = "/Users/gnoeyhman/computation/DeGrado_Lab/carbon_screening/03_04_2024_final/input_2"
-    outdir = "/Users/gnoeyhman/computation/DeGrado_Lab/carbon_screening/03_04_2024_final/output"
+`
+indir = "/Users/gnoeyhman/computation/DeGrado_Lab/carbon_screening/03_04_2024_final/input_2"
+outdir = "/Users/gnoeyhman/computation/DeGrado_Lab/carbon_screening/03_04_2024_final/output"
 
-    log_file = "log_bump.txt"
-    vdw_cut_off = 0.3
+apo_str = "apo_2.pdb"
+ref_molecule = "bas.pdb"
+`
 
-    select_cut_off = 3.8
+log_file = "log_bump.txt"
+vdw_cut_off = 0.3
 
-    apo_str = "apo_2.pdb"
-    ref_molecule = "bas.pdb"
+select_cut_off = 3.8
+
 
 run the python code in PyMol session
 
