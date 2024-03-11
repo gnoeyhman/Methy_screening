@@ -15,11 +15,11 @@ Before you run the script, you need to prepare the apo structure of designed pro
 put the pdbs in input directory
 
 ```
-indir = "/Users/gnoeyhman/computation/DeGrado_Lab/carbon_screening/03_04_2024_final/input_2"
-outdir = "/Users/gnoeyhman/computation/DeGrado_Lab/carbon_screening/03_04_2024_final/output"
+indir = "~/DIRECTORY/input"
+outdir = "~/DIRECTORY/output"
 
-apo_str = "apo_2.pdb"
-ref_molecule = "bas.pdb"
+apo_str = "apo.pdb"
+lig_molecule = "lig.pdb"
 ```
 
 log_file = "log_bump.txt"
