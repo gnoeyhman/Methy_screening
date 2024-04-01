@@ -20,13 +20,6 @@ outdir = "~/DIRECTORY/output"
 apo_str = "apo.pdb"
 lig_molecule = "lig.pdb"
 ```
-
-log_file = "log_bump.txt"
-vdw_cut_off = 0.3
-
-select_cut_off = 3.8
-
-
 run the python code in PyMol session
 
 ```python
